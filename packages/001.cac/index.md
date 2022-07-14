@@ -27,7 +27,7 @@ console.log(JSON.stringify(parsed, null, 2))
 
 输出如下
 
-```js
+```
 { args: [], options: { '--': [], type: 'none' } }
 ```
 
@@ -50,8 +50,8 @@ console.log(JSON.stringify(parsed, null, 2))
 按照demo用法
 
 ```js
-import cac from "cac";
-const cli = cac(); // 可以传入 string 类型参数，该参数将成为此 cac 实例的 name
+import cac from 'cac'
+const cli = cac() // 可以传入 string 类型参数，该参数将成为此 cac 实例的 name
 ```
 
 以及 `index.ts` 中得知，我们调用 cac 其实就是创建了一个新的 `CAC` 实例
@@ -206,7 +206,7 @@ class CAC {
 
 **命令输入参数`process.argv`**
 
-```js
+```bash
 node index.js -a --b c d
 ```
 
