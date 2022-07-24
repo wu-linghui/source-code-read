@@ -53,7 +53,7 @@ async function create(info: NeededInfo): Promise<[number, string]> {
     name: info.name,
     private: true,
   }
-  writeFileSync(withTarget(`${targetName}/package.json`), JSON.stringify(pkg, null, 2))
+  writeFileSync(withTarget(`${targetName}/package.json`), `${JSON.stringify(pkg, null, 2)}/n`)
   return [packagesCount, targetName]
 }
 
