@@ -20,7 +20,7 @@ specifiers:
   tsx: 3.7.1
   typescript: 4.7.4
   unplugin-auto-import: 0.9.2
-  vitest: 0.19.0
+  vitest: 0.21.1
 
 devDependencies:
   '@alexzzz/eslint-config': registry.npmmirror.com/@alexzzz/eslint-config/1.3.0_4x5o4skxv6sl53vpwefgt23khm
@@ -42,18 +42,18 @@ devDependencies:
   tsx: registry.npmmirror.com/tsx/3.7.1
   typescript: registry.npmmirror.com/typescript/4.7.4
   unplugin-auto-import: registry.npmmirror.com/unplugin-auto-import/0.9.2
-  vitest: 0.19.0
+  vitest: 0.21.1
 
 packages:
 
   /@types/chai-subset/1.3.3:
     resolution: {integrity: sha512-frBecisrNGz+F4T6bcc+NLeolfiojh5FxW2klu669+8BARtyQv2C/GkNW6FUodVe4BroGMP/wER/YDGc7rEllw==}
     dependencies:
-      '@types/chai': 4.3.1
+      '@types/chai': 4.3.3
     dev: true
 
-  /@types/chai/4.3.1:
-    resolution: {integrity: sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==}
+  /@types/chai/4.3.3:
+    resolution: {integrity: sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==}
     dev: true
 
   /@types/node/18.0.1:
@@ -430,9 +430,9 @@ packages:
     resolution: {integrity: sha512-iMDbmAWtfU+MHpxt/I5iWI7cY6YVEZUQ3MBgPQ++XD1PELuJHIl82xBmObyP2KyQmkNB2dsqF7seoQQiAn5yDQ==}
     hasBin: true
     dependencies:
-      is-core-module: registry.npmmirror.com/is-core-module/2.9.0
-      path-parse: registry.npmmirror.com/path-parse/1.0.7
-      supports-preserve-symlinks-flag: registry.npmmirror.com/supports-preserve-symlinks-flag/1.0.0
+      is-core-module: 2.9.0
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
   /rollup/2.75.7:
@@ -492,8 +492,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.19.0:
-    resolution: {integrity: sha512-nU80Gm95tMchigHpAMukxv1LoWbBGgknX/1MqrXCOoJoJL7/wfq4h2aow61o2jwf5szQrahoNqBqaGb+fYdYrQ==}
+  /vitest/0.21.1:
+    resolution: {integrity: sha512-WBIxuFmIDPuK47GO6Lu9eNeRMqHj/FWL3dk73OHH3eyPPWPiu+UB3QHLkLK2PEggCqJW4FaWoWg8R68S7p9+9Q==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -517,7 +517,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/chai': 4.3.1
+      '@types/chai': 4.3.3
       '@types/chai-subset': 1.3.3
       '@types/node': 18.0.1
       chai: 4.3.6
@@ -1811,8 +1811,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      is-text-path: registry.npmmirror.com/is-text-path/1.0.1
       JSONStream: registry.npmmirror.com/JSONStream/1.3.5
+      is-text-path: registry.npmmirror.com/is-text-path/1.0.1
       lodash: registry.npmmirror.com/lodash/4.17.21
       meow: registry.npmmirror.com/meow/8.1.2
       split2: registry.npmmirror.com/split2/3.2.2
@@ -2764,12 +2764,6 @@ packages:
     version: 1.0.0
     dev: true
 
-  registry.npmmirror.com/function-bind/1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/function-bind/-/function-bind-1.1.1.tgz}
-    name: function-bind
-    version: 1.1.1
-    dev: true
-
   registry.npmmirror.com/function.prototype.name/1.1.5:
     resolution: {integrity: sha512-uN7m/BzVKQnCUF/iW8jYea67v++2u7m5UgENbHRtdDVclOUP+FMPlCNdmk0h/ysGyo2tavMJEDqJAkJdRa1vMA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/function.prototype.name/-/function.prototype.name-1.1.5.tgz}
     name: function.prototype.name
@@ -2966,15 +2960,6 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       has-symbols: registry.npmmirror.com/has-symbols/1.0.3
-    dev: true
-
-  registry.npmmirror.com/has/1.0.3:
-    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/has/-/has-1.0.3.tgz}
-    name: has
-    version: 1.0.3
-    engines: {node: '>= 0.4.0'}
-    dependencies:
-      function-bind: registry.npmmirror.com/function-bind/1.1.1
     dev: true
 
   registry.npmmirror.com/hosted-git-info/2.8.9:
@@ -3180,14 +3165,6 @@ packages:
     name: is-callable
     version: 1.2.4
     engines: {node: '>= 0.4'}
-    dev: true
-
-  registry.npmmirror.com/is-core-module/2.9.0:
-    resolution: {integrity: sha512-+5FPy5PnwmO3lvfMb0AsoPaBG+5KHUI0wYFXOtYPnVVVspTFUuMZNfNaNVRt3FZadstu2c8x23vykRW/NBoU6A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/is-core-module/-/is-core-module-2.9.0.tgz}
-    name: is-core-module
-    version: 2.9.0
-    dependencies:
-      has: registry.npmmirror.com/has/1.0.3
     dev: true
 
   registry.npmmirror.com/is-date-object/1.0.5:
@@ -4130,12 +4107,6 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  registry.npmmirror.com/path-parse/1.0.7:
-    resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz}
-    name: path-parse
-    version: 1.0.7
-    dev: true
-
   registry.npmmirror.com/path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/path-type/-/path-type-4.0.0.tgz}
     name: path-type
@@ -4767,13 +4738,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       has-flag: registry.npmmirror.com/has-flag/4.0.0
-    dev: true
-
-  registry.npmmirror.com/supports-preserve-symlinks-flag/1.0.0:
-    resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz}
-    name: supports-preserve-symlinks-flag
-    version: 1.0.0
-    engines: {node: '>= 0.4'}
     dev: true
 
   registry.npmmirror.com/text-extensions/1.9.0:
