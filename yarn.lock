@@ -3028,10 +3028,10 @@ pluralize@^8.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
-pnpm@7.5.0:
-  version "7.5.0"
-  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-7.5.0.tgz#d9fda828c036a7284bb8aa04c545691029dc75ae"
-  integrity sha512-sb9wJNyx/d8l3Gze2jI1y8BGNbb/ga+JT3SrGNiH+C5KbtZ4wmgePBWGjaiGugcpT9+vQ5MO//+QlVWhMCpedQ==
+pnpm@7.9.3:
+  version "7.9.3"
+  resolved "https://registry.yarnpkg.com/pnpm/-/pnpm-7.9.3.tgz#843f76d13dbfa9f6dfb5135d6fbaa8b99facacc9"
+  integrity sha512-0hpAD1vtILw0i9gTN4ffagnScWMW9/avfZIKllBUd++fAvCss+hVgPPDd0HS9XcOT675gid4H9esGkbLdaFy+w==
 
 postcss-selector-parser@^6.0.9:
   version "6.0.10"
