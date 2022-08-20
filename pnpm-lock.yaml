@@ -6,7 +6,7 @@ specifiers:
   '@commitlint/cli': 17.0.3
   '@commitlint/config-conventional': 17.0.3
   '@types/fs-extra': 9.0.13
-  '@types/inquirer': 8.2.2
+  '@types/inquirer': 8.2.3
   '@types/node': 18.0.1
   eslint: 8.19.0
   fast-glob: 3.2.11
@@ -28,7 +28,7 @@ devDependencies:
   '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/17.0.3
   '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/17.0.3
   '@types/fs-extra': registry.npmmirror.com/@types/fs-extra/9.0.13
-  '@types/inquirer': 8.2.2
+  '@types/inquirer': 8.2.3
   '@types/node': registry.npmmirror.com/@types/node/18.0.1
   eslint: registry.npmmirror.com/eslint/8.19.0
   fast-glob: registry.npmmirror.com/fast-glob/3.2.11
@@ -89,8 +89,8 @@ packages:
     resolution: {integrity: sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==}
     dev: true
 
-  /@types/inquirer/8.2.2:
-    resolution: {integrity: sha512-HXoFOl+KS4yvmUjisi83VpuSBOeeXIzdJfoT/v2pUruqybpHy0Dz1DyXy3E2jNH0cSVKJZV92VOnFBwJR6k83A==}
+  /@types/inquirer/8.2.3:
+    resolution: {integrity: sha512-ZlBqD+8WIVNy3KIVkl+Qne6bGLW2erwN0GJXY9Ri/9EMbyupee3xw3H0Mmv5kJoLyNpfd/oHlwKxO0DUDH7yWA==}
     dependencies:
       '@types/through': 0.0.30
     dev: true
