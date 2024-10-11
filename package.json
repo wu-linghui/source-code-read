@@ -26,7 +26,7 @@
     "husky": "8.0.1",
     "inquirer": "9.0.0",
     "lint-staged": "13.0.3",
-    "magic-string": "0.26.2",
+    "magic-string": "0.30.12",
     "mlly": "0.5.12",
     "pnpm": "7.9.5",
     "tsx": "3.7.1",
