@@ -15,7 +15,7 @@ specifiers:
   inquirer: 9.0.0
   lint-staged: 13.0.3
   magic-string: 0.26.2
-  mlly: 0.5.12
+  mlly: 0.5.17
   pnpm: 7.9.5
   tsx: 3.7.1
   typescript: 4.7.4
@@ -37,7 +37,7 @@ devDependencies:
   inquirer: registry.npmmirror.com/inquirer/9.0.0
   lint-staged: registry.npmmirror.com/lint-staged/13.0.3
   magic-string: registry.npmmirror.com/magic-string/0.26.2
-  mlly: 0.5.12
+  mlly: 0.5.17
   pnpm: 7.9.5
   tsx: registry.npmmirror.com/tsx/3.7.1
   typescript: registry.npmmirror.com/typescript/4.7.4
@@ -105,6 +105,12 @@ packages:
       '@types/node': 18.0.1
     dev: true
 
+  /acorn/8.18.0:
+    resolution: {integrity: sha512-lGq+9yr1/GuAWaVYIHRjvvySG5/4VfKIvC8EWxStPdcDh/Ka7FG3twP6v4d5BkravUilhIAsG4Qj83t02LWUPQ==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+    dev: true
+
   /acorn/8.8.0:
     resolution: {integrity: sha512-QOxyigPVrpZ2GXT+PFyZTl6TtOFc5egxHIP9IlQ+RbupQuX4RkT/Bee4/kQuC02Xkzg84JcT7oLYtDIQxp+v7w==}
     engines: {node: '>=0.4.0'}
@@ -165,6 +171,10 @@ packages:
       readdirp: 3.6.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /confbox/0.1.8:
+    resolution: {integrity: sha512-RMtmw0iFkeR4YV+fUOSucriAQNb9g8zFR52MWCtl+cCZOFRNL6zeB395vPzFhEjjn4fMxXudmELnl/KF/WrK6w==}
     dev: true
 
   /debug/2.6.9:
@@ -526,10 +536,6 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: true
 
-  /jsonc-parser/3.0.0:
-    resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
-    dev: true
-
   /local-pkg/0.4.2:
     resolution: {integrity: sha512-mlERgSPrbxU3BP4qBqAvvwlgW4MTg78iwJdGGnv7kibKjWcJksrG3t6LB5lXI93wXRDvG4NpUgJFmTG4T6rdrg==}
     engines: {node: '>=14'}
@@ -561,13 +567,22 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /mlly/0.5.12:
-    resolution: {integrity: sha512-8moXGh6Hfy2Nmys3DDEm4CuxDBk5Y7Lk1jQ4JcwW0djO9b+SCKTpw0enIQeZIuEnPljdxHSGmcbXU9hpIIEYeQ==}
+  /mlly/0.5.17:
+    resolution: {integrity: sha512-Rn+ai4G+CQXptDFSRNnChEgNr+xAEauYhwRvpPl/UHStTlgkIftplgJRsA2OXPuoUn86K4XAjB26+x5CEvVb6A==}
     dependencies:
-      acorn: 8.8.0
-      pathe: 0.3.4
-      pkg-types: 0.3.3
-      ufo: 0.8.5
+      acorn: 8.18.0
+      pathe: 1.1.2
+      pkg-types: 1.3.1
+      ufo: 1.6.4
+    dev: true
+
+  /mlly/1.8.2:
+    resolution: {integrity: sha512-d+ObxMQFmbt10sretNDytwt85VrbkhhUA/JBGm1MPaWJ65Cl4wOgLaB1NYvJSZ0Ef03MMEU/0xpPMXUIQ29UfA==}
+    dependencies:
+      acorn: 8.18.0
+      pathe: 2.0.3
+      pkg-types: 1.3.1
+      ufo: 1.6.4
     dev: true
 
   /ms/2.0.0:
@@ -597,6 +612,14 @@ packages:
     resolution: {integrity: sha512-YWgqEdxf36R6vcsyj0A+yT/rDRPe0wui4J9gRR7T4whjU5Lx/jZOr75ckEgTNaLVQABAwsrlzHRpIKcCdXAQ5A==}
     dev: true
 
+  /pathe/1.1.2:
+    resolution: {integrity: sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ==}
+    dev: true
+
+  /pathe/2.0.3:
+    resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
+    dev: true
+
   /pathval/1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
@@ -610,12 +633,12 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
-  /pkg-types/0.3.3:
-    resolution: {integrity: sha512-6AJcCMnjUQPQv/Wk960w0TOmjhdjbeaQJoSKWRQv9N3rgkessCu6J0Ydsog/nw1MbpnxHuPzYbfOn2KmlZO1FA==}
+  /pkg-types/1.3.1:
+    resolution: {integrity: sha512-/Jm5M4RvtBFVkKWRu2BLUTNP8/M2a+UwuAX+ae4770q1qVGtfjG+WTCupoZixokjmHiry8uI+dlY8KXYV5HVVQ==}
     dependencies:
-      jsonc-parser: 3.0.0
-      mlly: 0.5.12
-      pathe: 0.3.4
+      confbox: 0.1.8
+      mlly: 1.8.2
+      pathe: 2.0.3
     dev: true
 
   /pnpm/7.9.5:
@@ -727,8 +750,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /ufo/0.8.5:
-    resolution: {integrity: sha512-e4+UtA5IRO+ha6hYklwj6r7BjiGMxS0O+UaSg9HbaTefg4kMkzj4tXzEBajRR+wkxf+golgAWKzLbytCUDMJAA==}
+  /ufo/1.6.4:
+    resolution: {integrity: sha512-JFNbkD1Svwe0KvGi8GOeLcP4kAWQ609twvCdcHxq1oSL8svv39ZuSvajcD8B+5D0eL4+s1Is2D/O6KN3qcTeRA==}
     dev: true
 
   /unimport/0.6.7:
@@ -739,7 +762,7 @@ packages:
       fast-glob: 3.2.11
       local-pkg: 0.4.2
       magic-string: 0.26.2
-      mlly: 0.5.12
+      mlly: 0.5.17
       pathe: 0.3.4
       scule: 0.3.2
       strip-literal: 0.4.0
